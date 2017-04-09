@@ -4,13 +4,14 @@
 
 Le fichier en entrée est un fichier log dont les champs sont de la forme suivante:
 
--*date temps magasin produit coût paiement
+- *date temps magasin produit coût paiement
++ *date temps magasin produit coût paiement
 
 Les champs du fichier log  sont séparés par des tabulations 
 
 Les codes du mapper et du reducer sont écrits en JAVA.
 
-#A propos
+# A propos
 
 Lors de ce Tp, Nous avons utilisé la machine virtuelle de Cloudera qui est une machine Linux, sur laquelle est installé le
 
