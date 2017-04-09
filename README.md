@@ -4,7 +4,7 @@
 
 Le fichier en entrée est un fichier log dont les champs sont de la forme suivante:
 
--*date temps magasin produit coût paiement
+- date temps magasin produit coût paiement
 
 Les champs du fichier log  sont séparés par des tabulations 
 
@@ -19,13 +19,13 @@ framework Hadoop , ainsi qu’un grand nombre d’outils de son  écosystème, s
 Nous avons testé le mapper et le reducer en local, ensuite nous avons exécuté le code directement sur HDFS.
 
 
-#Activité 4
+# Activité 4
 
 le but est de déterminer le total des ventes par magasin
 
--*le mapper: s'occupe d'extraire les couples  (magasin,coût)
+- le mapper: s'occupe d'extraire les couples  (magasin,coût)
 
--*le reducer: s'occupe de faire la somme de tous les coûts pour un même magasin 
+- le reducer: s'occupe de faire la somme de tous les coûts pour un même magasin 
 
 
 
@@ -37,7 +37,7 @@ le but est de donner la liste des ventes par catégorie de produits.
 
 - le reducer: s'occupe de faire la somme de tous les coûts pour un même magasin
 
-#Activité 6
+# Activité 6
 
 le but est de Donner le montant de la vente le plus élevé pour chaque magasin
 
@@ -70,11 +70,11 @@ httpclient
 
 - Etapes 
 
-- spécification des arguments (le fichier log et le repertoire du résultat) à utiliser lors de l'execution dans l'onglet Arguments de la fenetre Run configuration 
+*spécification des arguments (le fichier log et le repertoire du résultat) à utiliser lors de l'execution dans l'onglet Arguments de la fenetre Run configuration 
 
-- Execusion du programme.
+*Execusion du programme.
 
-- Récupération du résultat dans le fichier part-r-00000 sous le répertoire précisé comme un argument dans l'etape 1
+*Récupération du résultat dans le fichier part-r-00000 sous le répertoire précisé comme un argument dans l'etape 1
 
 ##tester le code sur HDFS
 
