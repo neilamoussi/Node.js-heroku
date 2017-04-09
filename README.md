@@ -4,7 +4,7 @@
 
 Le fichier en entrée est un fichier log dont les champs sont de la forme suivante:
 
-- date temps magasin produit coût paiement
+  - date temps magasin produit coût paiement
 
 Les champs du fichier log  sont séparés par des tabulations 
 
@@ -76,7 +76,7 @@ httpclient
 
 *Récupération du résultat dans le fichier part-r-00000 sous le répertoire précisé comme un argument dans l'etape 1
 
-##tester le code sur HDFS
+2-- tester le code sur HDFS
 
 - Exportation du jar du projet 
 
